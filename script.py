@@ -46,7 +46,7 @@ class SupportBot:
     return input("I did not understand you. Can you please ask your question again?").lower()
   
   def how_to_pay_bill_intent(self):
-    return input("You can pay your bill a couple of ways. 1) online at bill.codecademybank.com or 2) you can pay your bill right now with me. Can I help you with anything else, {}? ".format(SupportBot.name.title())).lower()
+    return input("You can pay your bill a couple of ways. 1) online at bill.happysmileyfacebank.com or 2) you can pay your bill right now with me. Can I help you with anything else, {}? ".format(SupportBot.name.title())).lower()
   
   def pay_bill_intent(self, account_number=None):
     return input(f"The account with number {account_number} was paid off. What else can I help you with?").lower()
